@@ -1,3 +1,8 @@
+import java.util.*;
+/*
+London Paris
+IT-CS-142
+*/
 public class Lecture06 {
 
   public static void main(String[] args) {
@@ -7,6 +12,7 @@ public class Lecture06 {
     // Note: you will need to put some of your answers inside a comments
 
     // Put your answer for #5A here:
+    // 10
 
     // NOTE: FIRST try to predict what the output will be WITHOUT actually running the program
     // write down your answer here
@@ -20,10 +26,16 @@ public class Lecture06 {
 
     // Put your answer for #5B here:
     // (Do this like #5A - predict, write your prediction, run the code, then explain any differences)
+    // 0
 
     // Put your answer for #5C here:
+    //5
 
     // Put your answer for #6 here:
+    Random rand = new Random();
+    int randomNumber = rand.nextInt(11);
+    System.out.println(randomNumber);
+
 
     // Put your answer for #7 here:
     // Instead of correcting the code write a brief explanation of how to fix it
